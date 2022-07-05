@@ -11,7 +11,7 @@ public class ConvertListToMap {
         list.add(new Hosting(3, "digitalocean.com", 120000));
         list.add(new Hosting(4, "aws.amazon.com", 200000));
         list.add(new Hosting(5, "mkyong.com", 1));
-	System.out.println("wow meeeean");
+	System.out.println("wow dudeeeeeeee");
         System.out.println("Before Mapping");
         System.out.println(list);
 
