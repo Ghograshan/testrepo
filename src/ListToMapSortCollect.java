@@ -10,7 +10,7 @@ public class ListToMapSortCollect {
         list.add(new Hosting(4, "aws.amazon.com", 200000));
         list.add(new Hosting(5, "mkyong.com", 1));
         list.add(new Hosting(6, "linode.com", 100000));
-
+        System.out.println("Hello World");
         Map<String, Long> result1 = list.stream()
                 .sorted(Comparator.comparingLong(Hosting::getWebsites).reversed())
                 .collect(
