@@ -14,7 +14,7 @@ public class MathOperation {
 
     public static void main(String[] args) {
         MathOperation mathOperation = new MathOperation();
-	System.out.println("Hello World 2");
+	System.out.println("Hello World");
         IMathOperation addition = (int a, int b) -> a + b;
         IMathOperation subtraction = (int a, int b) -> a - b;
         IMathOperation multiplication = (int a, int b) -> a * b;
