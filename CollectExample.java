@@ -108,5 +108,6 @@ public class CollectExample {
         System.out.println("Avgerage male age:" + malesAge.getAverage());
         System.out.println("Max male age:" + malesAge.getMax());
         System.out.println("Min male age:" + malesAge.getMin());
+		System.out.println("Ow yea Maaaaaaan");
     }
 }
